@@ -1,7 +1,7 @@
 # test coverage for  [jslint (v0.10.3)](https://github.com/reid/node-jslint)  [![npm package](https://img.shields.io/npm/v/npmtest-jslint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jslint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jslint.svg)](https://travis-ci.org/npmtest/node-npmtest-jslint)
 #### The JavaScript Code Quality Tool
 
-[![NPM](https://nodei.co/npm/jslint.png?downloads=true)](https://www.npmjs.com/package/jslint)
+[![NPM](https://nodei.co/npm/jslint.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/jslint)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-jslint/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-jslint/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-jslint/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jslint/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jslint/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-jslint/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-jslint/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-jslint/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-jslint/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-jslint/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-jslint%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-jslint/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-jslint/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-jslint/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-jslint/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-jslint%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jslint/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-jslint/build/test-report.html](https://npmtest.github.io/node-npmtest-jslint/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-jslint/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-jslint/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-jslint/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-jslint/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-jslint/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jslint/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-jslint/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +33,7 @@
 
 {
     "author": {
-        "name": "Reid Burke",
-        "email": "me@reidburke.com"
+        "name": "Reid Burke"
     },
     "bin": {
         "jslint": "./bin/jslint.js"
@@ -38,31 +43,25 @@
     },
     "contributors": [
         {
-            "name": "Douglas Crockford",
-            "email": "douglas@crockford.com"
+            "name": "Douglas Crockford"
         },
         {
-            "name": "Mikeal Rogers",
-            "email": "mikeal.rogers@gmail.com"
+            "name": "Mikeal Rogers"
         },
         {
             "name": "Adam Moore"
         },
         {
-            "name": "Luke Smith",
-            "email": "lsmith@yahoo-inc.com"
+            "name": "Luke Smith"
         },
         {
-            "name": "Anders Conbere",
-            "email": "aconbere@gmail.com"
+            "name": "Anders Conbere"
         },
         {
-            "name": "Ryuichi OKUMURA",
-            "email": "okuryu@okuryu.com"
+            "name": "Ryuichi OKUMURA"
         },
         {
-            "name": "Sam Mikes",
-            "email": "smikes@cubane.com"
+            "name": "Sam Mikes"
         },
         {
             "name": "Dylan Lloyd"
@@ -77,8 +76,7 @@
             "name": "Bnaya"
         },
         {
-            "name": "Maximilian Antoni",
-            "email": "mail@maxantoni.de"
+            "name": "Maximilian Antoni"
         },
         {
             "name": "Vasil Velichkov"
@@ -144,16 +142,13 @@
     "main": "./lib/nodelint.js",
     "maintainers": [
         {
-            "name": "reid",
-            "email": "me@reidburke.com"
+            "name": "reid"
         },
         {
-            "name": "okuryu",
-            "email": "okuryu@okuryu.com"
+            "name": "okuryu"
         },
         {
-            "name": "smikes",
-            "email": "smikes@cubane.com"
+            "name": "smikes"
         }
     ],
     "man": [
@@ -161,7 +156,6 @@
     ],
     "name": "jslint",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/reid/node-jslint.git"
